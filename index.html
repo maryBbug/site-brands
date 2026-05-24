@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" initial-scale=1 />
+        <title>Главная страница</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="slide-1">
+                        <div class="banner-content">
+                            <h1 class="banner-h1">Космецевтика и инъекционные препараты для косметологов</h1>
+                            <ul class="advantages">
+                                <li>Прямые поставки <br>и самые выгодные цены</li>
+                                <li>200+ легитимных препаратов</li>
+                                <li>26 лет на рынке</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" id="slide-2">
+                        <div class="banner-content">
+                            <h1 class="banner-h1">Акции</h1>
+                            <ul class="advantages">
+                                <li>Приобретайте с выгодой</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" id="slide-3">
+                        <div class="banner-content">
+                            <h1 class="banner-h1">Обучение</h1>
+                            <ul class="advantages">
+                                <li>Увеличьте доход, изучая<br>тренды и базу</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+            <div class="banner-grey">
+                <div class="left-content">
+                    <img class="icons" src="images/cube.svg"/>
+                    <p>Бесплатная доставка от 10 000 рублей</p>
+                </div> 
+                <div class="right-content">
+                    <img class="icons" src="images/heart.svg"/>
+                    <p>>50 000 косметологов выбрали нас</p>
+                </div>              
+            </div>
+
+            <div class="banners-group">
+                <div class="stocks-banner">
+                    <div class="banner-content">
+                        <h3 class="group-heading">Акции</h3>
+                        <p>Приобретайте <br> с выгодой!</p>
+                    </div>
+                </div>
+                <div class="training-banner">
+                    <div class="banner-content">
+                        <h3 class="group-heading">Обучение</h3>
+                        <p>Увеличьте доход, изучая<br>тренды и базу</p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="brands-h1">Бренды</h1>
+
+            <div class="brands-slider swiper">
+            <div class="swiper-wrapper" id="brands-wrapper">
+                <div class="swiper-slide">
+                    <img class="brand-image" src="images/storyderm.jpg" alt="STORYDERM" />
+                    <p class="brand-name">STORYDERM</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="brand-image" src="images/isov.jpg" alt="ISOV" />
+                    <p class="brand-name">ISOV</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="brand-image" src="images/revofil.jpg" alt="REVOFIL" />
+                    <p class="brand-name">REVOFIL</p>
+                </div>
+                <div class="swiper-slide">
+                    <img class="brand-image" src="images/readnepro.jpg" alt="READNE PRO" />
+                    <p class="brand-name">READNE PRO</p>
+                </div>
+            </div>
+        </div>
+
+            <h1 class="brands-h1">Добавить бренд</h1>
+            <form id="brand-form">
+                <input type="text" id="brand-name" placeholder="Название бренда">
+                <span class="error" id="name-error"></span>
+                <input type="text" id="brand-image" placeholder="URL картинки">
+                <span class="error" id="image-error"></span>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
